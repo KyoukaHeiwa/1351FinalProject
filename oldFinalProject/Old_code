@@ -1,0 +1,55 @@
+Keymovements: // KeyAdapter key = new KeyAdapter() {
+        //     @Override
+        //     public void keyPressed(KeyEvent ke) {
+        //         new Bullet(sc,shooter,ke.getKeyCode());
+        //     }
+        // };
+        // bf.addKeyListener(key);
+
+        // KeyAdapter shooterControlListener = new KeyAdapter() {
+        //     @Override
+        //     public void keyPressed(KeyEvent ke) {
+        //         switch (ke.getKeyCode()) {
+        //             case KeyEvent.VK_W:
+        //                 shooter.setVelY(-2); // Move up
+        //                 break;
+        //             case KeyEvent.VK_S:
+        //                 shooter.setVelY(2); // Move down
+        //                 break;
+        //             case KeyEvent.VK_A:
+        //                 shooter.setVelX(-2); // Move left
+        //                 break;
+        //             case KeyEvent.VK_D:
+        //                 shooter.setVelX(2); // Move right
+        //                 break;
+        //         }
+        //         shooter.move();
+        //     }
+        //     @Override
+        //     public void keyReleased(KeyEvent ke) {
+        //         switch (ke.getKeyCode()) {
+        //             case KeyEvent.VK_W:
+        //             case KeyEvent.VK_S:
+        //                 shooter.setVelY(0);
+        //                 break;
+        //             case KeyEvent.VK_A:
+        //             case KeyEvent.VK_D:
+        //                 shooter.setVelX(0);
+        //                 break;
+        //         }
+        //         shooter.move();
+        //     }
+        // };
+        // bf.addKeyListener(shooterControlListener);
+        
+        Thread:
+        // new Thread(() -> {
+        //     while (true) {
+        //         shooter.move();
+        //         try {
+        //             Thread.sleep(1000 / 60); // Update 60 times per second
+        //         } catch (InterruptedException e) {
+        //             e.printStackTrace();
+        //         }
+        //     }
+        // }).start();
